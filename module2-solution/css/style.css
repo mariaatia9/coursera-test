@@ -16,9 +16,9 @@ h1 {
 }
 
  section {
-  border: 1px solid black;
+  border:3px solid black;
   background-color: gray;
-  width: 99%;
+  width: 90%;
   height: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -36,9 +36,9 @@ h1 {
 #p1{float: right;
 	margin-top: 0px;
 	padding: 5px;
-  width: auto;
+  width: 90px;
   height: auto;
-	background-color: blue;
+	background-color: pink;
 position: absolute;
 top:0;
 right:0;}
@@ -47,19 +47,22 @@ right:0;}
 	margin-top: 0px;
 	padding: 5px;
 	align-content: center;	width: 15%;
-  width: auto;
+  width: 90px;
   height: auto;
-	background-color: green;
+	background-color: orangered;
 position: absolute;
 top:0;
-right:0;}
+right:0;
+color: white;
+border-color: black;
+}
 
 #p3{float: right;
 	margin-top: 0px;
 	padding: 5px;
-	width: auto;
+	width: 90px;
 	height: auto;
-	background-color: yellow;
+	background-color: beige;
 position: absolute;
 top:0;
 right:0;}
@@ -212,4 +215,10 @@ width: 100%;
 
  
   }
+}
+div{margin-left: px;}
+p{border-right: solid;
+border-left: solid;
+border-bottom: solid;
+font-weight: bold;
 }
